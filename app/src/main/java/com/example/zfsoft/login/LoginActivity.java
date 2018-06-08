@@ -48,7 +48,7 @@ public class LoginActivity extends BaseActivity<LoginPresenter> implements ILogi
         mEt_pwd = findViewById(R.id.et_password);
         mBtn_login = findViewById(R.id.btn_login);
         mTv_sign = findViewById(R.id.forget_password);
-
+        mPb = findViewById(R.id.pb_progress);
 
         mBtn_login.setOnClickListener(this);
         mTv_sign.setOnClickListener(this);
